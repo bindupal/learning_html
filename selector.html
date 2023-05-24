@@ -6,13 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selector Tutorial</title>
     <style>
-        p{
+        /* Element Selector */
+        p
+        {
+            border: 2px solid black;
+        }
+        /* Id selector */
+        #firstPara{
             color: red;
         }
+        /* Class Selector */
+        .bgblue
+        {
+        color: yellow;
+        background-color: blue;
+        
+    }
+    /* Group Selectoe */
+    footer, span{
+        color: red;
+        background-color: pink;
+
+    }
     </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit.</p>
+    <p id="firstPara">Lorem ipsum dolor sit.</p>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, sunt!</p>
+    <div>
+        <p class="bgblue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam repellendus sunt magni facilis quasi quo!</p>
+
+
+</div>
+<footer>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia quod suscipit? Sapiente debitis dolorem facere aspernatur cumque, quas deserunt.
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, velit!</p></span>
+
+</footer>
+
 </body>
 </html>
