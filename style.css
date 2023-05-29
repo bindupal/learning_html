@@ -19,3 +19,9 @@ border-bottom-left-radius: 7px solid black;
 border-bottom-left-radius: 7px solid rgb(102, 94, 94);
 border-bottom-right-radius: 10px solid rgb(21, 43, 15);
 }
+.para{
+    height: 700px;
+    width: 500px;
+    background-image: url('https://www.bloggerbindu.com/wp-content/uploads/2023/05/Red-Velvet-Cake-Recipe-2.png');
+    background-repeat: no-repeat;
+}
